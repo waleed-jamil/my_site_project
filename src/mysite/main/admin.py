@@ -16,6 +16,5 @@ class TutorialAdmin(admin.ModelAdmin):
         models.TextField : {'widget' : TinyMCE()}
     }
 
-
 # Register your models here.
 admin.site.register(Tutorial, TutorialAdmin)
